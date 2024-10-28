@@ -16,16 +16,16 @@ const HeroSection = () => {
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       {/* Blurred Background Overlay */}
-      <div className='absolute inset-0 bg-black bg-opacity-70 backdrop-blur-sm'></div>
+      <div className='absolute inset-0 bg-black bg-opacity-10 backdrop-blur-sm'></div>
 
       <div className='relative z-10 text-center px-4'>
-        <h1 className='text-4xl md:text-6xl font-extrabold text-white tracking-tight leading-tight'>
+        <h1 className='text-4xl md:text-6xl font-extrabold text-black tracking-tight leading-tight'>
           Welcome to Map of Pi
         </h1>
-        <p className='mt-4 text-lg md:text-xl text-gray-200 max-w-2xl mx-auto'>
-          Discover, buy, and sell with ease on our dynamic platform.
+        <p className='mt-4 text-xl md:text-xl text-white-900 max-w-2xl mx-auto'>
+          Discover, buy, and sell in map of pi Markeplace.
         </p>
-        <button className='mt-8 px-8 py-3 bg-primary text-black font-semibold rounded-full transition duration-300 hover:bg-white hover:text-primary transform hover:scale-105 shadow-md'>
+        <button className='mt-8 px-8 py-3 bg-primary text-black font-semibold rounded-full transition duration-300 hover:bg-white hover:text-black transform hover:scale-105 shadow-md'>
           Get Started
         </button>
       </div>

@@ -2,23 +2,23 @@ import React from 'react';
 
 function Header() {
   return (
-    <header className='text-white z-10 bg-transparent absolute w-full'>
+    <header className='text-black z-10 bg-transparent absolute w-full'>
       <div className='container mx-auto px-4 py-6 flex justify-between items-center'>
         <div className='flex items-center'>
-          <div className='w-8 h-8 bg-white rounded-sm mr-2'></div>
+          <div className='w-8 h-8 bg-black rounded-sm mr-2'></div>
           <span className='text-xl font-bold'>Map of PI</span>
         </div>
-        <nav className='hidden md:flex space-x-6'>
-          <a href='#features' className='hover:text-gray-300'>
+        <nav className='hidden md:flex space-x-6 font-semibold'>
+          <a href='#features' className='hover:text-gray-800'>
             Features
           </a>
-          <a href='#resources' className='hover:text-gray-300'>
+          <a href='#resources' className='hover:text-green-800'>
             About Us
           </a>
-          <a href='#chatGPT' className='hover:text-gray-300'>
+          <a href='#chatGPT' className='hover:text-green-800'>
             Blog
           </a>
-          <a href='#pricing' className='hover:text-gray-300'>
+          <a href='#pricing' className='hover:text-green-800'>
             Support
           </a>
         </nav>
@@ -27,7 +27,7 @@ function Header() {
             href='https://twitter.com'
             target='_blank'
             rel='noopener noreferrer'
-            className='hover:text-gray-300'
+            className='hover:text-gray-800'
           >
             <img
               src='https://abs.twimg.com/favicons/twitter.2.ico'
@@ -39,7 +39,7 @@ function Header() {
             href='https://facebook.com'
             target='_blank'
             rel='noopener noreferrer'
-            className='hover:text-gray-300'
+            className='hover:text-gray-800'
           >
             <img
               src='https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg'
@@ -51,7 +51,7 @@ function Header() {
             href='https://instagram.com'
             target='_blank'
             rel='noopener noreferrer'
-            className='hover:text-gray-300'
+            className='hover:text-gray-800'
           >
             <img
               src='https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png'
