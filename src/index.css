@@ -1,12 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
   cursor: none;
-  background-color: #000; 
+  background-color: #000;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .text-primary {
   color: #32cd32;
+}
+
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

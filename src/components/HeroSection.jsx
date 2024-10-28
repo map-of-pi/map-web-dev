@@ -16,7 +16,7 @@ const HeroSection = () => {
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       {/* Blurred Background Overlay */}
-      <div className='absolute inset-0 bg-black bg-opacity-50 backdrop-blur-lg'></div>
+      <div className='absolute inset-0 bg-black bg-opacity-70 backdrop-blur-sm'></div>
 
       <div className='relative z-10 text-center px-4'>
         <h1 className='text-4xl md:text-6xl font-extrabold text-white tracking-tight leading-tight'>
