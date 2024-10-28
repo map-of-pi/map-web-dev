@@ -1,9 +1,68 @@
 import React from 'react';
 
-const Header = () => (
-  <header className="fixed top-0 left-0 w-full p-4 bg-transparent z-50">
-    <h1 className="text-white text-2xl font-bold">Map of Pi</h1>
-  </header>
-);
+function Header() {
+  return (
+    <header className='text-white z-10 bg-transparent absolute w-full'>
+      <div className='container mx-auto px-4 py-6 flex justify-between items-center'>
+        <div className='flex items-center'>
+          <div className='w-8 h-8 bg-white rounded-sm mr-2'></div>
+          <span className='text-xl font-bold'>Map of PI</span>
+        </div>
+        <nav className='hidden md:flex space-x-6'>
+          <a href='#features' className='hover:text-gray-300'>
+            Features
+          </a>
+          <a href='#resources' className='hover:text-gray-300'>
+            About Us
+          </a>
+          <a href='#chatGPT' className='hover:text-gray-300'>
+            Blog
+          </a>
+          <a href='#pricing' className='hover:text-gray-300'>
+            Support
+          </a>
+        </nav>
+        <div className='flex space-x-4'>
+          <a
+            href='https://twitter.com'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='hover:text-gray-300'
+          >
+            <img
+              src='https://abs.twimg.com/favicons/twitter.2.ico'
+              alt='Twitter'
+              className='w-6 h-6 text-white'
+            />
+          </a>
+          <a
+            href='https://facebook.com'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='hover:text-gray-300'
+          >
+            <img
+              src='https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg'
+              alt='Facebook'
+              className='w-6 h-6 text-white'
+            />
+          </a>
+          <a
+            href='https://instagram.com'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='hover:text-gray-300'
+          >
+            <img
+              src='https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png'
+              alt='Instagram'
+              className='w-6 h-6'
+            />
+          </a>
+        </div>
+      </div>
+    </header>
+  );
+}
 
 export default Header;
