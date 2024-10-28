@@ -5,7 +5,6 @@
 @tailwind utilities;
 
 body {
-  cursor: none;
   background-color: #000;
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
@@ -27,3 +26,23 @@ body {
     transform: translateY(0);
   }
 }
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.reveal-text {
+  background: linear-gradient(90deg, #000 0%, #000 50%, #66666600 50.1%);
+  background-size: 0% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-size 0.5s ease;
+} */
