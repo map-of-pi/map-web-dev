@@ -1,7 +1,22 @@
 import React from 'react';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import FeaturesSection from './components/FeaturesSection';
+import TeamSection from './components/TeamSection';
+import Footer from './components/Footer';
+import CustomCursor from './components/CustomCursor';
 
-const App = () => {
-  return <div>App</div>;
-};
+function App() {
+  return (
+    <div className='relative'>
+      <CustomCursor />
+      <Header />
+      <HeroSection />
+      <FeaturesSection />
+      <TeamSection />
+      <Footer />
+    </div>
+  );
+}
 
 export default App;
