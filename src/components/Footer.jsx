@@ -31,7 +31,7 @@ function Footer() {
           <div className='flex justify-between items-start gap-x-3 gap-y-8 flex-wrap'>
             <p className='text-white tracking-[-2%] text-[24px] font-light leading-[auto]'>
               Start buying and Selling today with PI
-              <br className='hidden md:block' /> Join Map of PI buzzling
+              <br className='hidden md:block' /> with Map of PI buzzling
               marketplace{' '}
               <a href='#' className='underline text-primary'>
                 Join now
@@ -63,7 +63,7 @@ function Footer() {
           </div>
           <div className='flex flex-col gap-10'>
             <h1 className='text-[15.9vw] xl:text-[18.13vw] 2xl:text-[272px] text-white py-10 border-t border-b border-[#989898] leading-none'>
-              Map of PI
+              MAP OF PI
             </h1>
             <div className='flex justify-between flex-wrap gap-3'>
               <ul className='flex gap-x-10 gap-y-4 w-fit'>

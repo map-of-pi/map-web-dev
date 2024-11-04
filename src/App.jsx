@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/Header';
+import Header from './components/Header/Index';
 import HeroSection from './components/HeroSection';
 import FeaturesSection from './components/FeaturesSection';
 import TeamSection from './components/TeamSection';
