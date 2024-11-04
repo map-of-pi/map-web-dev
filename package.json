@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@splidejs/react-splide": "^0.7.12",
     "gsap": "^3.12.5",
     "lenis": "^1.1.14",
     "react": "^18.3.1",
