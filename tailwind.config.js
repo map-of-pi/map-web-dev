@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#29dd23', // Xenial-like green
+        primary: '#1d724b', // Xenial-like green
       },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],

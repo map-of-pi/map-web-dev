@@ -25,7 +25,7 @@ const HeroSection = () => {
         <p className='mt-4 text-xl md:text-xl text-white-900 max-w-2xl mx-auto drop-shadow-2xl'>
           Discover, buy, and sell in map of pi Markeplace.
         </p>
-        <button className='mt-8 px-8 py-3 bg-primary text-black font-semibold rounded-full transition duration-300 hover:bg-white hover:text-black transform hover:scale-105 shadow-md'>
+        <button className='mt-8 px-8 py-3 bg-primary text-white font-semibold rounded-full transition duration-300 hover:bg-white hover:text-black transform hover:scale-105 shadow-md'>
           Get Started
         </button>
       </div>
