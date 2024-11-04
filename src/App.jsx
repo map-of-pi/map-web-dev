@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './components/Header/Index';
 import HeroSection from './components/HeroSection';
-import FeaturesSection from './components/FeaturesSection';
 import Audience from './components/Audience';
 import Services from './components/Services';
 import Team from './components/Team';
@@ -14,7 +13,6 @@ function App() {
       <CustomCursor />
       <Header />
       <HeroSection />
-      {/* <FeaturesSection /> */}
       <Audience />
       <Services />
       <Team />
