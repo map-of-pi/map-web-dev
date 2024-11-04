@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header/Index';
 import HeroSection from './components/HeroSection';
 import FeaturesSection from './components/FeaturesSection';
+import Services from './components/Services';
 import Team from './components/Team';
 import Footer from './components/Footer';
 import CustomCursor from './components/CustomCursor';
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <HeroSection />
       <FeaturesSection />
+      <Services />
       <Team />
       <Footer />
     </div>

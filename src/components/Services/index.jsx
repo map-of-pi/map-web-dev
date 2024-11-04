@@ -1,60 +1,90 @@
 import React, { useRef } from 'react';
 import { Icon } from '@iconify/react';
-import {
-  Sms,
-  DocumentText,
-  Scan,
-  MessageQuestion,
-  People,
-} from 'iconsax-react';
+// import {
+//   Sms,
+//   DocumentText,
+//   Scan,
+//   MessageQuestion,
+//   People,
+// } from 'iconsax-react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const services = [
-    {
-        id: '1',
-        icon: (
-            <Icon
-                icon='heroicons:shopping-cart'
-                className='text-white'
-                fontSize={24}
-            />
-        ),
-        title: 'Secure Transactions',
-        body: 'Experience safe and secure transactions using PI for all your purchases and sales.',
-    },
-    {
-        id: '2',
-        icon: <DocumentText className='text-white' />,
-        title: 'Product Listings',
-        body: 'Easily list your products with detailed descriptions and high-quality images.',
-    },
-    {
-        id: '3',
-        icon: <Scan className='text-white' />,
-        title: 'Order Tracking',
-        body: 'Track your orders in real-time from purchase to delivery.',
-    },
-    {
-        id: '4',
-        icon: <MessageQuestion className='text-white' />,
-        title: 'Customer Support',
-        body: '24/7 customer support to assist you with any issues or inquiries.',
-    },
-    {
-        id: '5',
-        icon: <People className='text-white' />,
-        title: 'Community Engagement',
-        body: 'Engage with other buyers and sellers through our community forums and events.',
-    },
-    {
-        id: '6',
-        icon: <Sms className='text-white' />,
-        title: 'Notifications',
-        body: 'Receive instant notifications for new messages, orders, and updates.',
-    },
+  {
+    id: '1',
+    icon: (
+      <Icon
+        icon='heroicons:shopping-cart'
+        className='text-white'
+        fontSize={24}
+      />
+    ),
+    title: 'Secure Transactions',
+    body: 'Experience safe and secure transactions using PI for all your purchases and sales.',
+  },
+  {
+    id: '2',
+    icon: (
+      <Icon
+        icon='heroicons:shopping-cart'
+        className='text-white'
+        fontSize={24}
+      />
+    ),
+    title: 'Product Listings',
+    body: 'Easily list your products with detailed descriptions and high-quality images.',
+  },
+  {
+    id: '3',
+    icon: (
+      <Icon
+        icon='heroicons:shopping-cart'
+        className='text-white'
+        fontSize={24}
+      />
+    ),
+    title: 'Order Tracking',
+    body: 'Track your orders in real-time from purchase to delivery.',
+  },
+  {
+    id: '4',
+    icon: (
+      <Icon
+        icon='heroicons:shopping-cart'
+        className='text-white'
+        fontSize={24}
+      />
+    ),
+    title: 'Customer Support',
+    body: '24/7 customer support to assist you with any issues or inquiries.',
+  },
+  {
+    id: '5',
+    icon: (
+      <Icon
+        icon='heroicons:shopping-cart'
+        className='text-white'
+        fontSize={24}
+      />
+    ),
+    title: 'Community Engagement',
+    body: 'Engage with other buyers and sellers through our community forums and events.',
+  },
+  {
+    id: '6',
+    icon: (
+      <Icon
+        icon='heroicons:shopping-cart'
+        className='text-white'
+        fontSize={24}
+      />
+    ),
+    title: 'Notifications',
+    body: 'Receive instant notifications for new messages, orders, and updates.',
+  },
 ];
 
 function ServiceItem(props) {
