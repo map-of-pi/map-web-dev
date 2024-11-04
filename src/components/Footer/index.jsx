@@ -62,7 +62,7 @@ function Footer() {
             </div>
           </div>
           <div className='flex flex-col gap-10'>
-            <h1 className='text-[15.9vw] xl:text-[18.13vw] 2xl:text-[272px] text-white py-10 border-t border-b border-[#989898] leading-none'>
+            <h1 className='text-[15.9vw] xl:text-[18.13vw] 2xl:text-[272px] text-white py-10 border-t border-b border-[#989898] leading-none text-center'>
               MAP OF PI
             </h1>
             <div className='flex justify-between flex-wrap gap-3'>

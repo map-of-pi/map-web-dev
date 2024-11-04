@@ -13,7 +13,7 @@ function App() {
       <Header />
       <HeroSection />
       <FeaturesSection />
-      <Team/>
+      <Team />
       <Footer />
     </div>
   );
