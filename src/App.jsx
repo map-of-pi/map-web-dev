@@ -14,7 +14,7 @@ function App() {
       <CustomCursor />
       <Header />
       <HeroSection />
-      <FeaturesSection />
+      {/* <FeaturesSection /> */}
       <Audience />
       <Services />
       <Team />
