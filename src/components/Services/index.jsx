@@ -17,7 +17,7 @@ const services = [
     id: '1',
     icon: (
       <Icon
-        icon='heroicons:shopping-cart'
+        icon='fluent:lock-closed-24-filled'
         className='text-white'
         fontSize={24}
       />
@@ -41,7 +41,7 @@ const services = [
     id: '3',
     icon: (
       <Icon
-        icon='heroicons:shopping-cart'
+        icon='fluent:rocket-24-filled'
         className='text-white'
         fontSize={24}
       />
@@ -53,7 +53,7 @@ const services = [
     id: '4',
     icon: (
       <Icon
-        icon='heroicons:shopping-cart'
+        icon='fluent:person-support-24-filled'
         className='text-white'
         fontSize={24}
       />
@@ -65,7 +65,7 @@ const services = [
     id: '5',
     icon: (
       <Icon
-        icon='heroicons:shopping-cart'
+        icon='fluent:people-community-24-filled'
         className='text-white'
         fontSize={24}
       />
@@ -77,7 +77,7 @@ const services = [
     id: '6',
     icon: (
       <Icon
-        icon='heroicons:shopping-cart'
+        icon='fluent:alert-24-filled'
         className='text-white'
         fontSize={24}
       />
@@ -92,7 +92,9 @@ function ServiceItem(props) {
   return (
     <li className='-tracking-[2%] flex flex-col gap-4 service-item'>
       {service.icon}
-      <h6 className='text-white text-xl leading-6'>{service.title}</h6>
+      <h5 className='text-white text-xl leading-6 font-semibold'>
+        {service.title}
+      </h5>
       <p className='text-[#DCDCDC] text-base leading-[19px] font-light'>
         {service.body}
       </p>
@@ -131,9 +133,9 @@ function Services() {
 
   return (
     <section ref={sectionRef} className='bg-[#0E1118] py-20'>
-      <div className='app-container space-y-[50px] md:space-y-[80px] lg:space-y-[100px]'>
-        <h5 className='unlocking text-white font-medium text-5xl leading-[56px] md:text-6xl lg:text-[80px] lg:leading-[92px] max-w-[792px]'>
-          Unlocking Potential, Together
+      <div className='w-full max-w-[1360px] px-5 md:px-10 mx-auto space-y-[50px] md:space-y-[80px] lg:space-y-[100px]'>
+        <h5 className='unlocking text-white font-semibold text-5xl leading-[56px] md:text-6xl lg:text-[80px] lg:leading-[92px] max-w-[792px]'>
+          Bringing Sellers and buyers together
         </h5>
         <ul className='grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10'>
           {services.map((service) => (
