@@ -8,25 +8,25 @@ const audiences = [
   {
     id: '1',
     icon: <User className='size-4 lg:size-6' />,
-    title: 'Freelancers',
+    title: 'Buyers',
     position: 'left-[17px] -top-[18px]',
   },
   {
     id: '2',
     icon: <Book1 className='size-4 lg:size-6' />,
-    title: 'Students',
+    title: 'Sellers',
     position: 'right-1 -top-[11px]',
   },
   {
     id: '3',
     icon: <Monitor className='size-4 lg:size-6' />,
-    title: 'Remote workers',
+    title: 'Investors',
     position: '-bottom-7 lg:-bottom-1 left-3 lg:-left-[74px]',
   },
   {
     id: '4',
     icon: <Profile2User className='size-4 lg:size-6' />,
-    title: 'Corporate employees',
+    title: 'Pioneers',
     position: 'lg:-bottom-[14px] lg:-right-[139px]',
   },
 ];
@@ -55,7 +55,7 @@ function Audience() {
     <section className='audience bg-[#29df23] min-h-[100dvh] flex items-center justify-center text-center'>
       <div className='max-w-[516px] lg:max-w-[858px] mx-auto px-5 relative'>
         <h6 className='text-white audience-title font-medium text-[46px] leading-[54px] sm:text-[52px] md:text-[60px] lg:text-[120px] lg:leading-[106px] -tracking-[2%]'>
-          Where Busineess People Connect on PI blockchain
+          Where Business People transact on PI blockchain
         </h6>
 
         {audiences.map((audience) => (
