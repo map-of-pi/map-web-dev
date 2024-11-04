@@ -91,7 +91,9 @@ function ServiceItem(props) {
   const { service } = props;
   return (
     <li className='-tracking-[2%] flex flex-col gap-4 service-item'>
-      {service.icon}
+      <div className='p-3 text-white bg-[#232329] rounded-full w-12 h-12'>
+        {service.icon}
+      </div>
       <h5 className='text-white text-xl leading-6 font-semibold'>
         {service.title}
       </h5>
