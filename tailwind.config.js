@@ -7,7 +7,8 @@ export default {
         primary: '#32CD32', // Xenial-like green
       },
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'], // More Xenial-like font style
+        sans: ['Poppins', 'sans-serif'],
+        secondary: ['Barlow Condensed', 'sans-serif'],
       },
     },
   },
