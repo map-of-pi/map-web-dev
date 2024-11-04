@@ -5,7 +5,7 @@ function Header() {
     <header className='text-black z-10 bg-transparent absolute w-full'>
       <div className='container mx-auto px-4 py-6 flex justify-between items-center'>
         <div className='flex items-center'>
-          <div className='w-8 h-8 bg-black rounded-sm mr-2'></div>
+          <img src='/logo.png' alt='Logo' className='w-8 h-8 mr-2' />
           <span className='text-xl font-bold'>Map of PI</span>
         </div>
         <nav className='hidden md:flex space-x-6 font-semibold'>
