@@ -19,7 +19,7 @@ const team = [
     key: '3',
     image: './team/fasakin-henry.png',
     name: 'Fasakin Henry',
-    role: 'Developer',
+    role: 'Software Engineer',
   },
   {
     key: '4',
@@ -33,6 +33,13 @@ const team = [
       'https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     name: 'Abigail Iyanu',
     role: 'Product designer',
+  },
+  {
+    key: '6',
+    image:
+      './team/francis-mwaura.png',
+    name: 'Francis Mwaura',
+    role: 'Software Engineer',
   },
 ];
 
@@ -65,7 +72,7 @@ function Team() {
                 <SplideSlide key={member.key}>
                   <div className='flex flex-col gap-3'>
                     <img
-                      className='h-auto w-full max-w-full max-h-full rounded-3xl object-cover'
+                      className='h-auto w-full max-w-full max-h-full rounded-3xl object-cover h-[300px] md:h-[400px] w-[300px] md:w-[400px]'
                       src={member.image}
                       alt={`${member.name} profile image`}
                     />
