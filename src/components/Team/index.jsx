@@ -4,16 +4,16 @@ import '@splidejs/react-splide/css';
 
 const team = [
   {
-    key: '2',
+    key: '1',
     image:
-      'https://images.unsplash.com/photo-1543132220-4bf3de6e10ae?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      './team/philip-jennings.png',
     name: 'Philip Jennings',
     role: 'Chief Executive Officer',
   },
   {
-    key: '1',
+    key: '2',
     image:
-      './team/1.jpg',
+      './team/daniel-lee.png',
     name: 'Daniel Lee',
     role: 'CTO',
   },
@@ -27,8 +27,8 @@ const team = [
   {
     key: '4',
     image:
-      'https://images.unsplash.com/flagged/photo-1595514191830-3e96a518989b?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    name: 'Mr. Ant',
+      './team/joseph-ciccone.png',
+    name: 'Joseph Ciccone',
     role: 'Social Media Manager',
   },
   {
