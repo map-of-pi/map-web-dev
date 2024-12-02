@@ -7,7 +7,7 @@ const team = [
     key: '1',
     image: './team/philip-jennings.png',
     name: 'Philip Jennings',
-    role: 'Chief Executive Officer',
+    role: 'Founder',
   },
   {
     key: '2',
