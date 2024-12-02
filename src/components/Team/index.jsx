@@ -29,15 +29,13 @@ const team = [
   },
   {
     key: '5',
-    image:
-      './team/oluwabukola-adesina.png',
+    image: './team/oluwabukola-adesina.png',
     name: 'Oluwabukola Adesina',
-    role: 'Product designer',
+    role: 'Software Tester',
   },
   {
     key: '6',
-    image:
-      './team/francis-mwaura.png',
+    image: './team/francis-mwaura.png',
     name: 'Francis Mwaura',
     role: 'Software Engineer',
   },
@@ -72,7 +70,7 @@ function Team() {
                 <SplideSlide key={member.key}>
                   <div className='flex flex-col gap-3'>
                     <img
-                      className='h-auto w-full max-w-full max-h-full rounded-3xl object-cover h-[300px] md:h-[400px] w-[300px] md:w-[400px]'
+                      className='max-w-full max-h-full rounded-3xl object-cover h-[300px] md:h-[400px] w-[300px] md:w-[400px]'
                       src={member.image}
                       alt={`${member.name} profile image`}
                     />
