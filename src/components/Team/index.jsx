@@ -17,24 +17,30 @@ const team = [
   },
   {
     key: '3',
+    image: './team/darin-hajou.png',
+    name: 'Darin Hajou',
+    role: 'Lead Frontend Developer',
+  },
+  {
+    key: '4',
     image: './team/fasakin-henry.png',
     name: 'Fasakin Henry',
     role: 'Software Engineer',
   },
   {
-    key: '4',
+    key: '5',
     image: './team/joseph-ciccone.png',
     name: 'Joseph Ciccone',
     role: 'Social Media Manager',
   },
   {
-    key: '5',
+    key: '6',
     image: './team/oluwabukola-adesina.png',
     name: 'Oluwabukola Adesina',
     role: 'Software Tester',
   },
   {
-    key: '6',
+    key: '7',
     image: './team/francis-mwaura.png',
     name: 'Francis Mwaura',
     role: 'Software Engineer',
