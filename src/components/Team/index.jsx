@@ -65,7 +65,7 @@ function Team() {
                 <SplideSlide key={member.key}>
                   <div className='flex flex-col gap-3'>
                     <img
-                      className='h-auto w-full max-w-full max-h-full'
+                      className='h-auto w-full max-w-full max-h-full rounded-3xl object-cover'
                       src={member.image}
                       alt={`${member.name} profile image`}
                     />
